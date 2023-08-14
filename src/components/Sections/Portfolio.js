@@ -3,7 +3,7 @@ import Project from '../Project';
 
 const portfolioStyle = {
   padding: '1rem',
-  border: '1px solid black'
+  border: '1px solid white'
 };
 
 const projects = [

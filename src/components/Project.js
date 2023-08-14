@@ -4,7 +4,7 @@ const projectStyle = {
   border: '1px solid silver',
   padding: '1rem',
   marginBottom: '1rem',
-  border: '1px solid black'
+  border: '1px solid white'
 };
 
 const Project = ({ title, description, deployedLink, githubLink }) => {

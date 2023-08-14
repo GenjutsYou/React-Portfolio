@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const contactStyle = {
   padding: '1rem',
-  border: '1px solid black'
+  border: '1px solid white'
 };
 
 const errorStyle = {

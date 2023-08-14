@@ -2,7 +2,7 @@ import React from 'react';
 
 const resumeStyle = {
   padding: '1rem',
-  border: '1px solid black'
+  border: '1px solid white'
 };
 
 const Resume = () => {
