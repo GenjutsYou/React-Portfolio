@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -16,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/GenjutsYou/React-Portfolio/issues"
   },
-  "homepage": "https://github.com/GenjutsYou/React-Portfolio#readme",
+  "homepage": "/",
   "dependencies": {
     "framer-motion": "^10.15.1",
     "react": "^18.2.0",
@@ -24,5 +28,20 @@
     "react-router-dom": "^6.15.0",
     "react-scripts": "^5.0.1",
     "web-vitals": "^3.4.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
