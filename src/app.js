@@ -15,30 +15,16 @@ function App() {
     setCurrentSection(section);
   };
 
-  let currentSectionComponent;
-
-  switch (currentSection) {
-    case 'AboutMe':
-      currentSectionComponent = <AboutMe />;
-      break;
-    case 'Portfolio':
-      currentSectionComponent = <Portfolio />;
-      break;
-    case 'Contact':
-      currentSectionComponent = <Contact />;
-      break;
-    case 'Resume':
-      currentSectionComponent = <Resume />;
-      break;
-    default:
-      currentSectionComponent = <AboutMe />;
-  }
-
   return (
     <div className="app">
       <Header />
       <Navigation onSectionChange={handleSectionChange} currentSection={currentSection} />
-      {currentSectionComponent}
+      <div className="main-content">
+        {currentSection === 'AboutMe' && <AboutMe />}
+        {currentSection === 'Portfolio' && <Portfolio />}
+        {currentSection === 'Contact' && <Contact />}
+        {currentSection === 'Resume' && <Resume />}
+      </div>
       <Footer />
     </div>
   );

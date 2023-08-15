@@ -6,7 +6,7 @@ const headerStyle = {
   justifyContent: 'center',
   alignItems: 'center',
   padding: '1rem',
-  height: '5rem',
+  height: '7rem',
   textAlign: 'center',
   borderBottom: '1px solid white'
 };
@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <header style={headerStyle}>
       {/* <h1>Developer's Portfolio</h1> */}
-    </header>
+    </header>    
   );
 };
 

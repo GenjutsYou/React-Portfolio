@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 
 const aboutStyle = {
   padding: '1rem',
-  border: '1px solid black',
   lineHeight: '2rem',
   fontSize: '1.5rem'
 };
@@ -45,16 +44,30 @@ const AboutMe = () => {
     }
   }, [isTyping, paragraphIndex]);
 
+  const h1Style = {
+    marginTop: '1rem',
+    marginBottom: '3rem',
+  };
+
+  const h2Style = {
+    marginTop: '1rem',
+    marginBottom: '3rem',
+  };
+
+  const pStyle = {
+    marginBottom: '5rem',
+  };
+
   return (
     <section style={aboutStyle}>
-      <h1>
+      <h1 style={h1Style}>About Me</h1>
+      <h2 style={h2Style}>
         <img src={require('../../assets/images/avatar.jpg')} alt="Avatar" style={{ maxWidth: '100px', marginRight: '50px' }} />
         Arun Mundackal
-      </h1>
-      <h2>About Me</h2>
+      </h2>
       <div className="about-me">
         {/* <img src="akatsuki.jpg" alt="Avatar" style={{ maxWidth: '100%', marginBottom: '1rem' }} /> */}
-        <p>{typedText}</p>
+        <p style={pStyle}>{typedText}</p>
         {isTyping} {/* Blinking cursor */}
       </div>
     </section>
