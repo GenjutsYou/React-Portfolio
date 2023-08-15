@@ -2,7 +2,8 @@ import React from 'react';
 import Project from '../Project';
 
 const portfolioStyle = {
-  padding: '1rem',
+  padding: '2rem',
+  margin: '2rem',
 };
 
 const projects = [

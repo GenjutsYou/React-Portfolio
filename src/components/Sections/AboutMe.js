@@ -17,6 +17,7 @@ const initialTextSections = [
 const AboutMe = () => {
   const [paragraphIndex, setParagraphIndex] = useState(0);
   const [typedText, setTypedText] = useState('');
+  const [typedParagraphs, setTypedParagraphs] = useState([]);
   const [isTyping, setIsTyping] = useState(true);
 
   const currentParagraph = initialTextSections[paragraphIndex];
@@ -25,7 +26,7 @@ const AboutMe = () => {
     let charIndex = 0;
     const typingInterval = setInterval(() => {
       if (charIndex === currentParagraph.length) {
-        // clearInterval(typingInterval);
+        clearInterval(typingInterval);
         setIsTyping(false);
       } else {
         setTypedText(currentParagraph.slice(0, charIndex + 1));
@@ -40,9 +41,11 @@ const AboutMe = () => {
       setTimeout(() => {
         setIsTyping(true);
         setParagraphIndex(paragraphIndex + 1);
+        setTypedParagraphs(prevParagraphs => [...prevParagraphs, typedText]);
+        setTypedText(''); // Clear typedText for the next paragraph
       }, 1000); // Wait for 1 second before typing next paragraph
     }
-  }, [isTyping, paragraphIndex]);
+  }, [isTyping, paragraphIndex, typedText]);
 
   const h1Style = {
     marginTop: '1rem',
@@ -55,7 +58,7 @@ const AboutMe = () => {
   };
 
   const pStyle = {
-    marginBottom: '5rem',
+    marginBottom: '2rem',
   };
 
   return (
@@ -66,9 +69,11 @@ const AboutMe = () => {
         Arun Mundackal
       </h2>
       <div className="about-me">
-        {/* <img src="akatsuki.jpg" alt="Avatar" style={{ maxWidth: '100%', marginBottom: '1rem' }} /> */}
+        {typedParagraphs.map((paragraph, index) => (
+          <p key={index} style={pStyle}>{paragraph}</p>
+        ))}
         <p style={pStyle}>{typedText}</p>
-        {isTyping} {/* Blinking cursor */}
+        {isTyping}
       </div>
     </section>
   );

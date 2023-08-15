@@ -1,66 +1,89 @@
-*{
-    box-sizing: border-box;
-    background-color: black;
-    color: white;
-  }
+* {
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .app {
-    /* background-image: url('./assets/images/sunset.jpg'); */
-    background-size: contain;
-    background-position: center;
-    padding: 0;
-  }
-  
-  header {
-    text-align: center;
-    background-color: black;
-    background-image: url(./assets/images/akatsukicloud.jpg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-  }
-  
-  nav {
-    font-size: 1rem;
-  }
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-  a {
-    text-decoration: none;
-    color: white;
-  }
+/* .contact {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
 
-  a:hover {
-    color: darkred;
-  }
+.resume {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+} */
 
-  h1 {
-    font-size: 1.5rem;
-    text-align: center;
-  }
+header {
+  text-align: center;
+  background-color: black;
+  background-image: url(./assets/images/akatsukicloud.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
 
-  h2 {
-    display: flex;
-    justify-content: center;
-    font-size: 1.5rem;
-    text-align: center;
-    align-items: center;
-  }
+nav {
+  font-size: 1rem;
+}
 
-  p {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  
-  footer {
-    padding: 10px;
-    text-align: center;
-  }
-  
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+div {
+}
+
+label {
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: darkred;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  margin-top: auto;
+}
