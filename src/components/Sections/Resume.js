@@ -18,7 +18,7 @@ const Resume = () => {
   return (
     <section style={resumeStyle}>
       <h2 style={h2Style}>Resume</h2>
-      <div style={resumeStyle}>
+      <div className="resume">
         <iframe
           src={require("../../assets/documents/Resume.pdf")}
           title="Resume"
