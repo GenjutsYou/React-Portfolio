@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.c0bb1126.css",
-    "main.js": "/React-Portfolio/static/js/main.94741a68.js",
+    "main.js": "/React-Portfolio/static/js/main.f4b38c04.js",
     "static/media/anime.jpg": "/React-Portfolio/static/media/anime.57cf2841d846d8b1173a.jpg",
     "static/media/gist.jpg": "/React-Portfolio/static/media/gist.9026f0ca4a27bf5de398.jpg",
     "static/media/weather.jpg": "/React-Portfolio/static/media/weather.050b8fdd0e3a2cfc9769.jpg",
     "static/media/avatar.jpg": "/React-Portfolio/static/media/avatar.9b45de4b7d1c14ec41f2.jpg",
     "static/media/Scheduler.jpg": "/React-Portfolio/static/media/Scheduler.a6eaa8be15734ce34329.jpg",
-    "static/media/Resume.pdf": "/React-Portfolio/static/media/Resume.a1e760c2df567774c64b.pdf",
+    "static/media/Resume.pdf": "/React-Portfolio/static/media/Resume.5620e6dcc14588032ee2.pdf",
     "static/media/generator.jpg": "/React-Portfolio/static/media/generator.20dea96cf82558b7a856.jpg",
     "static/media/akatsukicloud.jpg": "/React-Portfolio/static/media/akatsukicloud.87ec85f7119f348c36cd.jpg",
     "static/media/notes.jpg": "/React-Portfolio/static/media/notes.93aa268108c27d6c920d.jpg",
     "index.html": "/React-Portfolio/index.html",
     "main.c0bb1126.css.map": "/React-Portfolio/static/css/main.c0bb1126.css.map",
-    "main.94741a68.js.map": "/React-Portfolio/static/js/main.94741a68.js.map"
+    "main.f4b38c04.js.map": "/React-Portfolio/static/js/main.f4b38c04.js.map"
   },
   "entrypoints": [
     "static/css/main.c0bb1126.css",
-    "static/js/main.94741a68.js"
+    "static/js/main.f4b38c04.js"
   ]
 }
