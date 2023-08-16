@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { NavLink, BrowserRouter } from 'react-router-dom';
+import React from 'react';
 
 const navStyle = {
   padding: '0.5rem',
@@ -17,46 +16,48 @@ const Navigation = ({ onSectionChange, currentSection }) => {
   };
 
   return (
-    <BrowserRouter>
-      <nav style={navStyle}>
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <h2>
-            <NavLink
-              to="/AboutMe"
-              style={linkStyle}
-              isActive={() => currentSection === 'AboutMe'}
-              onClick={() => handleLinkClick('AboutMe')}
-            >
-              About Me
-            </NavLink>
-            <NavLink
-              to="/Portfolio"
-              style={linkStyle}
-              isActive={() => currentSection === 'Portfolio'}
-              onClick={() => handleLinkClick('Portfolio')}
-            >
-              Portfolio
-            </NavLink>
-            <NavLink
-              to="/Contact"
-              style={linkStyle}
-              isActive={() => currentSection === 'Contact'}
-              onClick={() => handleLinkClick('Contact')}
-            >
-              Contact
-            </NavLink>
-            <NavLink
-              to="/Resume"
-              style={linkStyle}
-              isActive={() => currentSection === 'Resume'}
-              onClick={() => handleLinkClick('Resume')}
-            >
-              Resume
-            </NavLink>
-          </h2>
-        </div>
-      </nav>
-    </BrowserRouter>
+    <nav style={navStyle}>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <h2>
+          <button
+            style={{
+              ...linkStyle,
+              color: currentSection === 'AboutMe' ? 'darkred' : 'inherit',
+            }}
+            onClick={() => handleLinkClick('AboutMe')}
+          >
+            About Me
+          </button>
+          <button
+            style={{
+              ...linkStyle,
+              color: currentSection === 'Portfolio' ? 'darkred' : 'inherit',
+            }}
+            onClick={() => handleLinkClick('Portfolio')}
+          >
+            Portfolio
+          </button>
+          <button
+            style={{
+              ...linkStyle,
+              color: currentSection === 'Contact' ? 'darkred' : 'inherit',
+            }}
+            onClick={() => handleLinkClick('Contact')}
+          >
+            Contact
+          </button>
+          <button
+            style={{
+              ...linkStyle,
+              color: currentSection === 'Resume' ? 'darkred' : 'inherit',
+            }}
+            onClick={() => handleLinkClick('Resume')}
+          >
+            Resume
+          </button>
+        </h2>
+      </div>
+    </nav>
   );
 };
 

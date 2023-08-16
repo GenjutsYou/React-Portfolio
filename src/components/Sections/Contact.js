@@ -74,22 +74,20 @@ const Contact = () => {
       <h1 style={h1Style}>
         Contact
       </h1>
-      <p>
       <div style={contactStyle}>
       <p>Feel free to reach out with any questions, inquiries, or opportunities you may have! </p>
 				<div style={divStyle}>
 				  <a href="mailto:arunmundackal7@gmail.com">
-					<img class="hover-image" src="https://img.shields.io/badge/@arunmundackal7-white" alt="@arunmundackal7@gmail.com" />
+					<img src="https://img.shields.io/badge/@arunmundackal7-white" alt="@arunmundackal7@gmail.com" />
 				  </a>
 				  <a href="https://github.com/GenjutsYou">
-					<img class="hover-image" src="https://img.shields.io/badge/GitHub-white" alt="GitHub" />
+					<img src="https://img.shields.io/badge/GitHub-white" alt="GitHub" />
 				  </a>
 				  <a href="https://www.linkedin.com/in/arun-mundackal/">
-					<img class="hover-image" src="https://img.shields.io/badge/LinkedIn-white" alt="LinkedIn" />
+					<img src="https://img.shields.io/badge/LinkedIn-white" alt="LinkedIn" />
 				  </a>
 				</div>
         </div>
-      </p> 
       <form onSubmit={handleSubmit} style={formStyle}>
       <h2 style={h2Style}>
         Send a message:

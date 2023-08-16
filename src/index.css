@@ -79,6 +79,10 @@ a:hover {
   color: darkred;
 }
 
+.active-link {
+  color: darkred;
+}
+
 p {
   display: flex;
   flex-wrap: wrap;
