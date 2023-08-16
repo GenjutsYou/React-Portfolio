@@ -7,6 +7,7 @@ const navStyle = {
 
 const linkStyle = {
   margin: '0 1rem',
+  fontSize: '1rem',
   textDecoration: 'none',
 };
 
@@ -22,7 +23,7 @@ const Navigation = ({ onSectionChange, currentSection }) => {
           <button
             style={{
               ...linkStyle,
-              color: currentSection === 'AboutMe' ? 'darkred' : 'inherit',
+              color: currentSection === 'AboutMe' ? 'red' : 'inherit',
             }}
             onClick={() => handleLinkClick('AboutMe')}
           >
@@ -31,7 +32,7 @@ const Navigation = ({ onSectionChange, currentSection }) => {
           <button
             style={{
               ...linkStyle,
-              color: currentSection === 'Portfolio' ? 'darkred' : 'inherit',
+              color: currentSection === 'Portfolio' ? 'red' : 'inherit',
             }}
             onClick={() => handleLinkClick('Portfolio')}
           >
@@ -40,7 +41,7 @@ const Navigation = ({ onSectionChange, currentSection }) => {
           <button
             style={{
               ...linkStyle,
-              color: currentSection === 'Contact' ? 'darkred' : 'inherit',
+              color: currentSection === 'Contact' ? 'red' : 'inherit',
             }}
             onClick={() => handleLinkClick('Contact')}
           >
@@ -49,7 +50,7 @@ const Navigation = ({ onSectionChange, currentSection }) => {
           <button
             style={{
               ...linkStyle,
-              color: currentSection === 'Resume' ? 'darkred' : 'inherit',
+              color: currentSection === 'Resume' ? 'red' : 'inherit',
             }}
             onClick={() => handleLinkClick('Resume')}
           >

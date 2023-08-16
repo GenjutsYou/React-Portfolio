@@ -45,6 +45,7 @@ const inputStyle = {
 
 const formStyle = {
   padding: '2rem',
+  marginBottom: '2rem',
   border: '1px solid white'
 };
 
