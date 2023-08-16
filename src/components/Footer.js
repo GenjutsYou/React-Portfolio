@@ -12,10 +12,11 @@ const divStyle = {
   alignItems: 'center',
   textAlign: 'center',
   alignItems: 'center',
-  marginTop: '0',
+  marginTop: '.5rem',
 };
 
 const PStyle = {
+  marginTop: '.5rem',
   marginBottom: '0',
 };
 
@@ -25,13 +26,13 @@ const Footer = () => {
       <div>
       <div style={divStyle}>
 				  <a href="mailto:arunmundackal7@gmail.com">
-          <img src={require('../assets/images/gmail.jpg')} alt="Avatar" style={{ maxWidth: '50px', marginHeight: '50px', marginRight: '30px' }} />
+          <img src={require('../assets/images/gmail.jpg')} alt="Avatar" style={{ maxWidth: '50px', marginHeight: '50px', marginRight: '.5rem' }} />
 				  </a>
 				  <a href="https://github.com/GenjutsYou">
-          <img src={require('../assets/images/github.jpg')} alt="Avatar" style={{ maxWidth: '50px', marginHeight: '50px', marginRight: '30px' }} />
+          <img src={require('../assets/images/github.jpg')} alt="Avatar" style={{ maxWidth: '50px', marginHeight: '50px', marginRight: '.5rem' }} />
 				  </a>
 				  <a href="https://www.linkedin.com/in/arun-mundackal/">
-          <img src={require('../assets/images/linkedin.jpg')} alt="Avatar" style={{ maxWidth: '50px', marginHeight: '50px', marginRight: '10px' }} />
+          <img src={require('../assets/images/linkedin.jpg')} alt="Avatar" style={{ maxWidth: '50px', marginHeight: '50px', marginRight: '.5rem' }} />
 				  </a>
 				</div>
       <p style={PStyle}>&copy; 2023 GenjutsYou's Portfolio</p>

@@ -13,7 +13,8 @@ const headerStyle = {
 const Header = () => {
   return (
     <header style={headerStyle}>
-      {/* <h1>Developer's Portfolio</h1> */}
+      {/* <img src={require('../assets/images/akatsukicloud.jpg')} alt="Avatar" style={{ maxWidth: '100px', marginRight: '50px' }} />
+        Arun Mundackal */}
     </header>    
   );
 };

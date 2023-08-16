@@ -6,6 +6,12 @@ const navStyle = {
 };
 
 const linkStyle = {
+  margin: '0 .5rem',
+  fontSize: '1rem',
+  textDecoration: 'none',
+};
+
+const buttonStyle = {
   margin: '0 1rem',
   fontSize: '1rem',
   textDecoration: 'none',
