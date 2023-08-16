@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.c0bb1126.css",
-    "main.js": "/React-Portfolio/static/js/main.f4b38c04.js",
+    "main.css": "/React-Portfolio/static/css/main.e9fa1ff2.css",
+    "main.js": "/React-Portfolio/static/js/main.874f26ba.js",
     "static/media/anime.jpg": "/React-Portfolio/static/media/anime.57cf2841d846d8b1173a.jpg",
     "static/media/gist.jpg": "/React-Portfolio/static/media/gist.9026f0ca4a27bf5de398.jpg",
     "static/media/weather.jpg": "/React-Portfolio/static/media/weather.050b8fdd0e3a2cfc9769.jpg",
@@ -12,11 +12,11 @@
     "static/media/akatsukicloud.jpg": "/React-Portfolio/static/media/akatsukicloud.87ec85f7119f348c36cd.jpg",
     "static/media/notes.jpg": "/React-Portfolio/static/media/notes.93aa268108c27d6c920d.jpg",
     "index.html": "/React-Portfolio/index.html",
-    "main.c0bb1126.css.map": "/React-Portfolio/static/css/main.c0bb1126.css.map",
-    "main.f4b38c04.js.map": "/React-Portfolio/static/js/main.f4b38c04.js.map"
+    "main.e9fa1ff2.css.map": "/React-Portfolio/static/css/main.e9fa1ff2.css.map",
+    "main.874f26ba.js.map": "/React-Portfolio/static/js/main.874f26ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0bb1126.css",
-    "static/js/main.f4b38c04.js"
+    "static/css/main.e9fa1ff2.css",
+    "static/js/main.874f26ba.js"
   ]
 }
