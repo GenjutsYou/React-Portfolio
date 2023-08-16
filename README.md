@@ -1,7 +1,5 @@
 # React-Portfolio
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 ## Description
 
 Here, you will embark on a journey through the evolution of my projects, starting with HTML, CSS, and JavaScript. 
@@ -15,17 +13,12 @@ Thanks for visiting!
 ## Table of Contents
 
 - [Credits](#credits)
-- [License](#license)
 - [Features](#features)
 - [Link](#link)
 
 ## Credits
 
 Arun Mundackal
-
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Features
 
