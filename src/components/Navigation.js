@@ -31,17 +31,17 @@ const Navigation = ({ onSectionChange, currentSection }) => {
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <h2 style={hStyle}>
           <button
-            className="button-hover"
+            className="button"
             style={{
               ...linkStyle,
               color: currentSection === 'AboutMe' ? 'red' : 'inherit',
             }}
             onClick={() => handleLinkClick('AboutMe')}
           >
-            About Me
+            About
           </button>
           <button
-            className="button-hover"
+            className="button"
             style={{
               ...linkStyle,
               color: currentSection === 'Portfolio' ? 'red' : 'inherit',
@@ -51,7 +51,7 @@ const Navigation = ({ onSectionChange, currentSection }) => {
             Portfolio
           </button>
           <button
-            className="button-hover"
+            className="button"
             style={{
               ...linkStyle,
               color: currentSection === 'Contact' ? 'red' : 'inherit',
@@ -61,7 +61,7 @@ const Navigation = ({ onSectionChange, currentSection }) => {
             Contact
           </button>
           <button
-            className="button-hover"
+            className="button"
             style={{
               ...linkStyle,
               color: currentSection === 'Resume' ? 'red' : 'inherit',
