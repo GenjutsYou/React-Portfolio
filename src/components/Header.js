@@ -15,7 +15,7 @@ const Header = () => {
     <header style={headerStyle}>
       {/* <img src={require('../assets/images/akatsukicloud.jpg')} alt="Avatar" style={{ maxWidth: '100px', marginRight: '50px' }} />
         Arun Mundackal */}
-    </header>    
+    </header>
   );
 };
 

@@ -12,11 +12,11 @@ const divStyle = {
   alignItems: 'center',
   textAlign: 'center',
   alignItems: 'center',
-  marginTop: '.5rem',
+  marginTop: '1px',
 };
 
 const PStyle = {
-  marginTop: '.5rem',
+  marginTop: '1px',
   marginBottom: '0',
 };
 

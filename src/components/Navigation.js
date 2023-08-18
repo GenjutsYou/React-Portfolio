@@ -5,6 +5,10 @@ const navStyle = {
   border: '1px solid white',
 };
 
+const hStyle = {
+  marginTop: '2rem'
+};
+
 const linkStyle = {
   margin: '0 .5rem',
   fontSize: '1rem',
@@ -25,7 +29,7 @@ const Navigation = ({ onSectionChange, currentSection }) => {
   return (
     <nav style={navStyle}>
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <h2>
+        <h2 style={hStyle}>
           <button
             style={{
               ...linkStyle,
