@@ -1,7 +1,7 @@
 import React from 'react';
 
 const navStyle = {
-  padding: '0.5rem',
+  padding: '5px',
   border: '1px solid white',
 };
 
@@ -31,6 +31,7 @@ const Navigation = ({ onSectionChange, currentSection }) => {
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <h2 style={hStyle}>
           <button
+            className="button-hover"
             style={{
               ...linkStyle,
               color: currentSection === 'AboutMe' ? 'red' : 'inherit',
@@ -40,6 +41,7 @@ const Navigation = ({ onSectionChange, currentSection }) => {
             About Me
           </button>
           <button
+            className="button-hover"
             style={{
               ...linkStyle,
               color: currentSection === 'Portfolio' ? 'red' : 'inherit',
@@ -49,6 +51,7 @@ const Navigation = ({ onSectionChange, currentSection }) => {
             Portfolio
           </button>
           <button
+            className="button-hover"
             style={{
               ...linkStyle,
               color: currentSection === 'Contact' ? 'red' : 'inherit',
@@ -58,6 +61,7 @@ const Navigation = ({ onSectionChange, currentSection }) => {
             Contact
           </button>
           <button
+            className="button-hover"
             style={{
               ...linkStyle,
               color: currentSection === 'Resume' ? 'red' : 'inherit',

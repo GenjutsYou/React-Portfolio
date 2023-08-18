@@ -22,7 +22,7 @@ const pStyle = {
 
 const divStyle = {
   display: 'flex',
-  flexDirection: 'column',
+  flexDirection: 'row',
   justifyContent: 'center',
   alignItems: 'center',
   padding: '1rem',
@@ -77,17 +77,29 @@ const Contact = () => {
       </h1>
       <div style={contactStyle}>
       <p>Feel free to reach out with any questions, inquiries, or opportunities you may have! </p>
-				<div style={divStyle}>
-				  <a href="mailto:arunmundackal7@gmail.com">
-					<img src="https://img.shields.io/badge/@arunmundackal7-white" alt="@arunmundackal7@gmail.com" />
-				  </a>
-				  <a href="https://github.com/GenjutsYou">
-					<img src="https://img.shields.io/badge/GitHub-white" alt="GitHub" />
-				  </a>
-				  <a href="https://www.linkedin.com/in/arun-mundackal/">
-					<img src="https://img.shields.io/badge/LinkedIn-white" alt="LinkedIn" />
-				  </a>
-				</div>
+      <div style={divStyle}>
+          <a href="mailto:arunmundackal7@gmail.com">
+            <img
+              src={require('../../assets/images/gmail.jpg')}
+              alt="Icon"
+              className="icon-image"
+            />
+          </a>
+          <a href="https://github.com/GenjutsYou">
+            <img
+              src={require('../../assets/images/github.jpg')}
+              alt="Icon"
+              className="icon-image"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/arun-mundackal/">
+            <img
+              src={require('../../assets/images/linkedin.jpg')}
+              alt="Icon"
+              className="icon-image"
+            />
+          </a>
+        </div>
         </div>
       <form onSubmit={handleSubmit} style={formStyle}>
       <h2 style={h2Style}>
