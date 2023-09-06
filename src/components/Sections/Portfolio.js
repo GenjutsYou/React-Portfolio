@@ -27,6 +27,15 @@ const divStyle = {
 
 const projects = [
   {
+    title: 'Anime Journey',
+    image: require('../../assets/images/journey.jpg'),
+    description: ' Anime Watchlist',
+    deployedLink: 'https://anime-journey-54da7a4ba2d4.herokuapp.com/',
+    githubLink: 'https://github.com/GenjutsYou/Anime-Journey',
+    skill: ['React', 'Node', 'Apollo', 'MongoDB'],
+    skillLink: ['https://react.dev/', 'https://nodejs.org/en/','https://www.apollographql.com/', 'https://www.mongodb.com/']
+  },
+  {
     title: 'Anime Trivia',
     image: require('../../assets/images/anime.jpg'),
     description: ' Trivia Game ',
